@@ -1,0 +1,54 @@
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+.header{
+    background-color: #00204a;
+    color: white;
+    padding: 70px 0;
+}
+
+  .btn {
+    background-color: #00bbf0;
+    color : white;
+    border-radius : 0;
+    padding: 10px 25px;
+  }
+  .heading{
+    text-transform: uppercase;
+  }
+  
+
+  .services {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .card{
+    background-color: #f8f8f9;
+    border:none;
+  }
+
+  .aboutus{
+    background-color: #00204a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .aboutus img {
+    width: 500px;
+  }
+
+  .aboutus .content {
+    color: #FFFFFF;
+  }
+
+
+  .aboutus-inside {
+    align-items: center;
+  }
