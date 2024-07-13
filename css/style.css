@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .navbar-brand {
     color: white;
 }
@@ -22,16 +27,48 @@
   .heading{
     text-transform: uppercase;
   }
-  
 
-  .services {
-    text-align: center;
-    margin-top: 50px;
-  }
+.services {
+  text-align: center;
+}
+
+.services-header span {
+  color:#00bbf0
+}
+
+.services img {
+  height: 70px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.services {
+  margin: 100px auto;
+}
+
+.services .row {
+  margin: 50px auto;
+}
 
   .card{
     background-color: #f8f8f9;
     border:none;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .card h4 {
+    font-weight: 700;
+  }
+
+  .card a {
+    color: #233779;
+    font-weight: 600;
+  }
+
+  .card a:hover {
+    text-decoration: none;
   }
 
   .aboutus{
@@ -52,3 +89,84 @@
   .aboutus-inside {
     align-items: center;
   }
+
+  .whyus{
+    text-align: center;
+    margin-top: 50px ;
+  }
+
+  .r-img {
+    width: 120px;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  .team {
+    background-color: #00204a;
+    text-align: center ;
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+.t-img {
+  width: 120px;
+  border-radius:50% ;
+  border: 5px solid white;
+}
+
+.t-name {
+  color: #00bbf0;
+  margin-top: 20px;
+}
+
+.t-card {
+  background-color:#00275a;
+  padding: 30px 0;
+  border-radius: 5px;
+}
+
+.fab {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fab:hover {
+    color: #00bbf0;
+}
+
+.t-social {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 40px;
+}
+
+.customers {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.c-cart {
+  text-align: start;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.c-img {
+  border-radius: 50%;
+  margin-top: -70px;
+  margin-bottom: 25px;
+}  
+
+.foot-main {
+  color: white;
+  background-color: #00204a;
+  padding-top: 5px;
+}
+
+.text-uppercase {
+  font-size: 24px;
+  text-transform: capitalize !important;
+}
