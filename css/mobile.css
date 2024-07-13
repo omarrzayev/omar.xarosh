@@ -1,0 +1,21 @@
+@media (min-width: 360px) and (max-width :760px) {
+    .header-img {
+        width: 350px !important;
+    }
+
+    .about-img {
+        width: 300px !important;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .t-card {
+        margin-bottom: 20px;
+    }
+
+    .c-cart {
+        margin-bottom: 70px;
+    }
+}
